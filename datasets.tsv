@@ -1,0 +1,5 @@
+id	input_shape	output_shape	output_func	loss_func	reward_func
+ECG2017	(1000, 1)	4	softmax	categorical_crossentropy	F1
+CIFAR10	(32, 32, 3)	10	linear	categorical_crossentropy	F1
+CIFAR100	(32, 32, 3)	100	linear	categorical_crossentropy	F1
+NoduleMNIST3D	(28, 28, 28, 1)	1	sigmoid	binary_crossentropy	AUC
