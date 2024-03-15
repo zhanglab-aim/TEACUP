@@ -1,0 +1,20 @@
+name: teacup
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - pytorch-cuda=11.8
+  - pytorch
+  - pytorch-lightning=2.0.2=pyhd8ed1ab_0
+  - scikit-learn
+  - scipy
+  - torchmetrics=1.2.1
+  - torchvision=0.15.2
+  - matplotlib
+  - seaborn
+  - h5py
+  - expecttest
+  - tensorboard
